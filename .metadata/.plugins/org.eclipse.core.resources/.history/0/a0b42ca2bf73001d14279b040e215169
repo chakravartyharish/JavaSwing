@@ -1,0 +1,25 @@
+package swing;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class Toolbar extends JPanel {
+	
+	private JButton hellobutton;
+	private JButton goodbyebutton;
+	
+	public Toolbar() {
+		hellobutton = new JButton("Hello");		
+		goodbyebutton = new JButton("goodbye");
+		
+		setLayout(new FlowLayout(FlowLayout.Right));
+		
+		
+		add(hellobutton);
+		add(goodbyebutton);
+		
+	}
+
+}

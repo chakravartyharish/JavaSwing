@@ -1,0 +1,22 @@
+package swing;
+
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
+import javax.swing.border.Border;
+
+public class FormPanel extends JPanel{
+	public FormPanel() {
+		Dimension dim = getPreferredSize(); 
+		dim.width = 250;
+		System.out.println(dim);
+		setPreferredSize(dim);
+		
+		Border innerBorder = BorderFactory.createTitledBorder("Add Person");
+		Border outerBorder = BorderFactory.createEmptyBorder(15,15,15,15);
+	
+		setBorder(BorderFactory.createCompoundBorder(innerBorder, outerBorder));
+	}
+}

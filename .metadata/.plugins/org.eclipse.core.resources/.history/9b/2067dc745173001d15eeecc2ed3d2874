@@ -1,0 +1,7 @@
+package swing;
+
+import JPanel;
+
+public class TextPanel extends JPanel {
+
+}

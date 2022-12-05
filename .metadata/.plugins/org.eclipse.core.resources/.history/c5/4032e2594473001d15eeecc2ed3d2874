@@ -1,0 +1,21 @@
+package swing;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class introSwing {
+
+	public static void main(String[] args) {
+		
+		JFrame f = new JFrame("Button Example");
+		JButton b = new JButton("Click here");
+		b.setBounds(100, 100, 50, 50);
+		  	  f.add(b);
+		  	  f.setSize(200, 200);
+		   
+		    f.setLayout(null);  
+		    f.setVisible(true);   
+
+	}
+
+}
