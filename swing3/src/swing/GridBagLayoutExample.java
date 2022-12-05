@@ -9,7 +9,7 @@ public class GridBagLayoutExample extends JFrame{
     public static void main(String[] args) {  
             GridBagLayoutExample a = new GridBagLayoutExample(); 
                        
-            a.setSize(300, 300);  
+            a.setSize(300, 200);  
             a.setPreferredSize(a.getSize());  
             a.setVisible(true);  
             a.setDefaultCloseOperation(EXIT_ON_CLOSE); 
